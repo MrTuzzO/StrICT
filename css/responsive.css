@@ -1,0 +1,34 @@
+/* screen size 420px */
+@media(max-width:420px) {
+    .logo img {
+        width: 100px;
+    }
+
+    .menu ul {
+        display: inline;
+    }
+
+    .banner .container .banner_content h1 {
+        font-size: 50px;
+        padding: 17px;
+    }
+
+    .banner .container .banner_content h1::after {
+        width: 210px;
+    }
+
+    .container .portfolio_content h2 {
+        font-size: 22px;
+    }
+
+    .about .about_content p {
+        text-align: justify;
+    }
+}
+
+/* screen size 370px */
+@media(max-width:370px) {
+    .portfolio .portfolio_content .portfolio_items {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
